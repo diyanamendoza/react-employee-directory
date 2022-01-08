@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should display the provided employee 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <div
+      class="cardheader"
+    >
+      <p>
+        name
+      </p>
+      <p>
+        email
+      </p>
+      <p>
+        birthday
+      </p>
+    </div>
+    <div
+      class="cardbody"
+    >
+      <p>
+        bio
+      </p>
+    </div>
+  </div>
+</div>
+`;

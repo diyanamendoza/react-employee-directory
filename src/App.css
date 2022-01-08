@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+
+.header {
+    border-bottom: 5px solid peru;
+}
+
+button {
+    border: none;
+    background-color: peru;
+    border-radius: 1rem;
+    padding: 8px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rebeccapurple;
+}
+
+a {
+    color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.authheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.authheaderin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.main {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fieldset {
+    margin-top: 20px;
+    border-radius: 1rem;
+    border: 1px dotted gray;
+    padding: 20px;
+}
+
+.input {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 1px solid gray;
+}
+
+.card {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 1.5rem;
+    width: 250px;
+    box-shadow: 0 0 29px 4px gray;
+    border-radius: 3px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.cardheader {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.hasProfile button {
+    margin-left: 20px;
+}
