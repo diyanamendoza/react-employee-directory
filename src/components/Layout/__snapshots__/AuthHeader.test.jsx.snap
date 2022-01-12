@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should display a header with a sign in/up button when logged out 1`] = `
+<div>
+  <div
+    class="authheader"
+  >
+    <a
+      href="/"
+    >
+      <button
+        aria-label="Sign In"
+        type="button"
+      >
+        Sign In/Up
+      </button>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`should display the user email when signed in 1`] = `
+<div>
+  <div
+    class="authheader"
+  >
+    <div
+      class="authheaderin"
+    >
+      <p>
+        Signed in as 
+        test@email.com
+      </p>
+      <button
+        type="button"
+      >
+        Logout
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should display the profile form 1`] = `
+<div>
+  <div>
+    <form
+      class="form"
+    >
+      <fieldset
+        class="fieldset"
+      >
+        <legend>
+          Your Profile
+        </legend>
+        <section
+          class="formSection"
+        >
+          <label
+            for="fullname"
+          >
+            Full Name
+          </label>
+          <input
+            class="input"
+            id="fullname"
+            name="fullname"
+            required=""
+            type="name"
+            value=""
+          />
+        </section>
+        <section
+          class="formSection"
+        >
+          <label
+            for="email"
+          >
+            Email
+          </label>
+          <input
+            class="input"
+            disabled=""
+            id="email"
+            name="email"
+            type="email"
+            value="test@email.com"
+          />
+        </section>
+        <section
+          class="formSection"
+        >
+          <label
+            for="birthday"
+          >
+            Birthday
+          </label>
+          <input
+            class="input"
+            id="birthday"
+            name="birthday"
+            required=""
+            type="date"
+            value=""
+          />
+        </section>
+        <section
+          class="formSection"
+        >
+          <label
+            for="bio"
+          >
+            Bio
+          </label>
+          <textarea
+            class="input"
+            id="bio"
+            name="bio"
+            required=""
+            type="text"
+          />
+        </section>
+        <button
+          type="submit"
+        >
+          Submit
+        </button>
+        
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;
